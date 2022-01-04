@@ -20,8 +20,8 @@ app.use('/', express.static('files/protectedResource'));
 app.use(cors());
 
 var resource = {
-    "name" : "Carved Rock Fitness",
-    "description" : "Carved Rock Fitness Workout API"
+    "name" : "Open Library",
+    "description" : "Open Library API"
 }
 
 var authServerPublicKeyObject = {
@@ -34,7 +34,7 @@ var authServerPublicKeyObject = {
 
 
 
-// function returns the payload part of JWT.
+// Function returns the payload part of JWT.
 // returned part is decoded from base64 and is json parsed.
 function getPayload(token) {
 	try{

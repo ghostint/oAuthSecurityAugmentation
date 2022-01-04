@@ -16,8 +16,7 @@ __.string = require('underscore.string');
 var app = express();
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true })); // support form-encoded bodies (for the token endpoint)
-
+app.use(bodyParser.urlencoded({ extended: true })); 
 app.engine('html', cons.underscore);
 app.set('view engine', 'html');
 app.set('views', 'files/verificationServer');
