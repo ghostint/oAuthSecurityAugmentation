@@ -1,5 +1,5 @@
 {
-  "name": "Library App secured by OAuth2 with extended feature",
+  "name": "library-app",
   "version": "1.0.0",
   "description": "An application showing the implementation of security feature on OAuth2",
   "main": "index.js",
@@ -25,6 +25,6 @@
     "ressrv":"nodemon ./protectedResourceServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Justin Boyer",
-  "license": "ISC"
+  "author": "",
+  "license": ""
 }
