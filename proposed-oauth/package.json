@@ -1,7 +1,7 @@
 {
-  "name": "globomantics-carved-rock-example",
+  "name": "Library App secured by OAuth2 with extended feature",
   "version": "1.0.0",
-  "description": "A sample application for the OAuth in Node.js Pluralsight course",
+  "description": "An application showing the implementation of security feature on OAuth2",
   "main": "index.js",
   "dependencies": {
     "base64url": "^3.0.1",
