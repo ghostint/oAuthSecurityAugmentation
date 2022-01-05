@@ -445,7 +445,6 @@ header{padding:0px;}
 .banner img{width:auto; display:none;}
 	.banner h1{font-size:34px;line-height:34px;}
 	.banner {
-    background: url("../images/hero.png");
      background-size: cover;
     background-position:center;
     height:400px;}

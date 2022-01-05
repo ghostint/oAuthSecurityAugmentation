@@ -38,13 +38,13 @@ var rsaKey = {
 // client information
 
 var client = {
-	"client_id": "globomantics-client-1",
-	"client_secret": "globomantics-client-secret-1",
+	"client_id": "ghostinClientID",
+	"client_secret": "ghostinClientSecret",
 	"redirect_uris": ["http://localhost:9000/callback"],
 	"scope": "visits membershipTime averageWorkoutLength"
 };
 
-var carvedRockGymApi = 'http://localhost:9002/gymStats';
+var oauthGym = 'http://localhost:9002/gymStats';
 
 var state = null;
 
@@ -232,7 +232,7 @@ app.get('/gymStats', function(req, res) {
 		'Content-Type': 'application/x-www-form-urlencoded'
 	};
 	
-	var resource = request('GET', carvedRockGymApi,
+	var resource = request('GET', oauthGym,
 		{headers: headers}
 	);
 	

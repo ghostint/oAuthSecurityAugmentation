@@ -441,7 +441,6 @@ header{padding:0px;}
 	.banner img{width:auto; display:none;}
 	.banner h1{font-size:34px;line-height:30px;}
 	.banner {
-    background: url("../images/mobileBanner.png");
      background-size: cover;
     background-position: center;
     height: 460px;}

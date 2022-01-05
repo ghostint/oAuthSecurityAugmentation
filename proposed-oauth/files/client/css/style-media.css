@@ -483,7 +483,6 @@ footer {
 .banner img{width:auto; display:none;}
 	.banner h1{font-size:43px;line-height:36px;line-height:53px;}
 	.banner {
-    background: url("../images/banner3.png");
      background-size: cover;
     background-position: center;
     height:400px;}

@@ -471,7 +471,6 @@ header{padding:0px;}
 .banner img{width:auto; display:none;}
 	.banner h1{font-size:40px;line-height:42px;}
 	.banner {
-    background: url("../images/banner.png");
      background-size: cover;
     background-position: center;
     height:400px;}

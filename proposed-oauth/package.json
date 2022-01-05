@@ -1,5 +1,5 @@
 {
-  "name": "library-app",
+  "name": "proposed-oauth2-flow",
   "version": "1.0.0",
   "description": "An application showing the implementation of security feature on OAuth2",
   "main": "index.js",
