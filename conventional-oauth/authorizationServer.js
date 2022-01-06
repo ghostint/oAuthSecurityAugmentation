@@ -323,6 +323,6 @@ var server = app.listen(9003, 'localhost', function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('Carved Rock Authorization Server is listening at http://%s:%s', host, port);
+  console.log('Authorization Server is listening at http://%s:%s', host, port);
 });
  
